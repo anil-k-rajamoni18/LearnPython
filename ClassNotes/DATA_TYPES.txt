@@ -1,0 +1,192 @@
+##DATA TYPES
+=====================
+Number 
+============
+	Integer --> +ve & -ve whole numbers
+	Float ---> -ve and +ve decimal numbers
+	Complex --> a+bj , a : real , b: imaginary , j: constant
+				2+3j
+				
+STRINGS
+====================
+- collectional of one or more characters(letters,symbol,special characters,regional lang letters,numbers)
+- anything inside quotes ---------> string
+	"kumar"
+	'A'
+	"Kumar@1265"
+	"1028"
+	"209.28"
+	
+-notations
+	' '
+	" "
+	"""  """
+	'''  '''
+	
+	'' helo '' --> error
+	""  hello "" --> error
+	
+BOOLEAN
+==============
+	- True  --> 1
+	- False --> 0
+	
+LIST 
+==============
+	- ordered collectional which stores both homo and hetro elements 
+	- it's mutable 
+	names = ["kumar" ,10,102.2,True]
+	- allows duplicates
+	- indexing for list 
+		=> positive 
+			0 --> N-1
+			
+		==>Negative 
+			- 1 --> -N
+			
+	== METHODS 
+		---> insertion  methods
+			- append(obj)  : always add the data/obj at end of the list
+
+			- insert(index,obj)
+				+ve invalid index it will insert at end 
+				- ve invalid index it will insert at beginning.
+
+			- extend([obj1,obj2,obj3,obj..n])
+			
+		-- deletion methods
+			- pop(index=-1) : it will remove default element at index = -1
+				- whenever we try to pop invalid index or empty list always throws Error.
+			- remove(elements)
+			
+		--- popular methods
+			- sort() 
+				sort(reverse=False)
+				sort(reverse=True)
+	
+			- reverse()
+			- count()
+			- index()
+			- clear()
+			- copy() 
+			
+			
+		
+			
+			
+TUPLES 
+==================
+	- ordered collection stores both homo and hetro elements
+	- immutable
+	- allows duplicates
+	colors = ("red","yellow","blue","red")
+	print(colors[1])
+	
+	methods
+	=============
+	count()
+	index()
+	
+	
+SET 
+====================
+	- unordered collection stores both homo and hetro
+	- immutable? mutable?
+	- doesn't allow duplicates
+	
+	colors = {"red","yellow","red","blue"}
+	
+	
+DICTIONARY
+===================
+	- unordered collection stores data in key:value
+	
+	
+	
+STRINGS & METHODS
+===========================
+- Collection of individual or group of characters is called String
+	characters:
+		letters (a-z A-Z)
+		numbers (0-9)
+		symbols
+		special characters
+		regional letters
+		
+	ex: 
+		'a' 
+		'10.2'
+		'Kumar@1245'
+		""" hello strings session """
+		
+- Different ways of declaration
+	single quotes: ''
+	double quotes: " "
+	thriple double quotes: """ """
+	thriple single quotes: ''' '''
+	
+- String Concentation (merging)
+	- combining two strings using + operator 
+	 ex1:
+	 a = "hello"
+	 b = "hi"
+	 print(a+b) #"hello"+"hi"
+	 
+	- print("kumar" + 40)
+	- str + str --> valid
+	- str+int or int+ str --> Value Error.
+	ex:2 
+	- a = "hello"
+	  print(a * 5) # hello 5 times 
+	  
+	  int*str or str*int --> multiply the strings
+		
+	
+- Escape Sequences in Strings
+	\n : newline
+	\t : tab
+	\\ : back slash
+	\' : single quotes
+	\" : double quotes 
+	
+- Formatting strings 
+	1. c based formatting 
+		%s : string 
+		%d : integers
+		%f : float 
+		trainerName = "kumar"
+		fee = 12000.2637638
+		# c based formatting 
+		print("My name is %s and fee = %.2f"%(trainerName,fee))
+
+		# 2. String.format() 
+		print("My name is {} and fee = {:.2f}".format(trainerName,fee))
+
+		# 3. F String (3.6+)
+		print(f"My name is {trainerName} and fee = {fee}")
+		
+		
+- INDEXING & SLICING 
+	
+	=>>INDEXING
+		+ve : 0 ---> N-1
+		-ve : -1 ---> -N
+		
+	syntax:
+		varName[indexNo]
+		- indexNo is invalid --> IndexError
+		
+	==> SLICING 
+		[start:stop:step]
+		+ve : 
+			start : 0
+			stop: N-1
+			step: 1
+		- ve:
+			start : -1
+			stop: (-N-1)
+			step: -1
+		- > [::-1] --> reverse the data.
+		--> [::] --> print all elements .
+		
+	

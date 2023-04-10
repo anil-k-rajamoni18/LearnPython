@@ -1,0 +1,206 @@
+
+				
+################# WAYS TO EXECUTE PYTHON CODE ##############
+	- command prompt/ using Terminal (create a .py)
+			python fileName.py
+			python3 fileName.py
+			
+	- Interative PythonShell (IDLE)
+			open Terminal/cmd
+			just type python/python3 and enter
+			here we can execute one line statements
+			
+	- VSCODE/PHYCHARM  - IDE 
+		projects 
+		syntax hightlighig
+		provides inbuild terminal
+		provide debug-run-test
+		creates floder - structure 
+		auto complete
+
+	
+	- JUPYTER NOTEBOOK
+		- interactive nb's
+		- write notebook
+		
+	
+	- Online Interpreters
+		replit 
+	
+	ex: read two numbers(integers) from keyword 
+		hint : int(input())
+		
+		Do all 
+		+ (addition) 
+		- (subtraction) 
+		* (multiplication) 
+		/ (division) 
+		//(integer-division) 
+		**(expo) 
+		operations on two numbers.
+
+
+PY2 vs Py3
+===========
+- Py2 has complicated syntax , lot of libraries is not there.
+- Python3 was incomplicated with Python2 
+- Python3 in print and strings representation(UNICODE)
+		
+		1.input 
+		==============
+		python2 : raw_input()
+		python3 : input()
+		
+		2.output
+		=================
+		python3: print(data)
+		
+		python2 print "data"
+		
+		3.strings/textual data representation
+		=====================================
+		python2 : ASCII (8bit) 
+					- 256 characters
+					- MIN: 0 ---- MAX: 255
+		python3 : UNICODE (16bit)
+					- 65,536 characters.
+					- MIN: 0 ---> MAX: 65535
+		
+		4.division operator
+		==========================
+		python2 : 7/2 --> 3 
+		python3: 7/2 ---> 3.5
+		
+	
+		
+		
+		##HOW Textual data converted into Binary?
+		
+			python(HL)---- Inteprerter ----->(ML) COMP
+			
+			name = "Kumar" ---> 75 117 109 97 114 ---- (binary) 100101 1001001 10001 1001 10010
+			passwd = 'Alex@123' --> 65 108 101 120 64 49 50 51 (binary) 
+			
+			characters ---> letters(a-zA-Z) numbers(0-9) special symbols(( , % & %@$*)@@I()@)
+			
+			
+		() - paranethesesis or round brackets 
+		[] - square brackets
+		{} - flower / curly 
+		
+		name = "Kumar Rajamoni"
+		fname = "రామ్"
+		greet = "नमस्ते"
+		
+		is a Valid?
+		
+			
+
+PY2 vs PY3
+====================
+1. PY2 stores strings : ASCII(8bit) --> 2^8 : 256 characters
+   PY3 stored strings: UNICODE(16bit) -->2^16: 65,536 characters.
+   
+2. PY3 : shorter syntax compared to Py2
+
+3. print "hello world" --> PY2(statement)
+   print("hello world") --->Py3(method)
+
+4. raw_input()  --> PY2
+   input()    --> PY3
+   
+5. Interger Division 
+	a = 10/3 -3-> Integer Quotient : Py2
+	a = 10/3 -3.33-> extact Quotient : Py3
+	
+6. Libraries Support Py2 is very less compared Py3
+
+7. next() functions 
+
+
+integer --> 1, 2 , -2
+floating --> 1.2 , -2.22
+complex ---> 1+2j
+boolean ---> True False
+strings ---> anything double quotes or single quotes is a string
+			'kumar'
+			"kumar@1234"
+			'a'
+			'10'
+			"27&*#)(@(#("
+			
+			"हैलो वर्ल्ड"
+
+
+
+
+JAVA VS PYTHON
+==========================
+1. java is static language
+	python is dynamic language
+
+2. => In java we have declared data type for a variable.
+	
+	datatype variableName = value;
+	
+	int age = 27;
+	float salary = 209229892.2892;
+	char ch = 'A';
+	String name = "kumar";
+	boolean isStudent = true;
+	ch = 10.373; wrong
+	ch = 'K';
+	
+	=>In python we don't have declare datatype explicitly , it will be handled by PI
+	age = 67;
+	salary = 10.2908;
+	ch = 'A'
+	name = "Alex"
+	b = True
+	
+	ch = 10.2788;
+	
+	
+
+### print() method 
+	- used to print information or object on console.
+	syntax:
+		print(value,sep=' ' ,end= '\n' , file = sys.stdout,flush = False)
+		
+	- attributes
+		- value --> can be of any data types (int , float , boolean, string)
+					if it is string must be enclosed in quotes.
+		- sep = ' ' --> printing more than one variable/value/object
+		
+		- end= '\n' --> mainly loops , '\n' : new line
+		
+		- file = sys.stdout -->monitor/screen/console.
+	
+	Observation:
+	=====================
+		1.print()  --> will act as  new line because of end = '\n'(new line)
+		2. a = print("hello")
+		   print(a)
+		   
+		2 CASES:
+		=============
+			print() --> will not return any value.
+			1.  when ever we are storing function/method calling in variable/value/object
+			2. when ever calling a funtion inside another function/method
+			
+			In Above two case always it will expect return value.
+			if there is not return value from function then by default None will be stored.
+			
+			
+			
+##COMMENTS 
+		- single --> # 
+		- multi line -- ''' '''  , """  """
+		
+## Variables 
+		- name to the memory location
+		- rules
+## Input methods 
+	- by default will read the data in string format.
+	syntax:
+		varName = input("prompt")

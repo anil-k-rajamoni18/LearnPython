@@ -1,0 +1,26 @@
+PRE-BUILD FUNCTIONS
+=======================
+- print() 
+- chr() ord()
+- bin() hex() oct()
+- type() - will print datatype 
+- id() - will print memory id/address
+- help() - documentation
+- dir() -- list all content of an object/variables
+
+- input() -- read the input from user/keyword/any input devices.
+
+- int() -- convert to integer type 
+	int("56") --> 56 
+	int("56k") --> Error
+	
+- float() -- convert to float type
+	float("10.28") --> 10.28
+	float("10.27h") --> Error
+	
+- dir() : directory methods ---> it will display all methods/attributes of a variable/value/object.
+- len() : display/count number of elements inside str/list/tuple/set/dictionary
+
+
+
+	

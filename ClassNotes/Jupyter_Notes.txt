@@ -1,0 +1,74 @@
+LAST SESSION SUMMARY 
+===========================
+- PREQ for PL 
+	- OS FUNDAMENTALS
+		- what is OS 
+		- OS structure
+		- types of OS.
+		- OS interaction
+			- CLI : command prompt , powershell , bash , terminal
+			- GUI : desktop 
+		- why computers understand 0's 1's?
+- What is Programming Language?
+	- programming -- set of instructions to do a specific task.
+	- language -- set of rules/grammer/syntax
+- History 
+- Types 
+	- BL/ML
+	- AL 
+	- HL 
+	
+	
+- Installation tools/sw
+	- python (latest : 3.11.2)
+	- anaconda/miniconda 
+	- vscode 
+	- git for windows.
+	
+- WORKSPACE SETUP 
+	- PythonTraining 
+		- orgPython
+			git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
+			- cloned repo floder.
+		- myPython
+			- clonedFloder
+				
+			- jupyterPractise
+			- vscodePractise
+			
+- HOW TO LAUNCH JupyterNoteBook:
+	- copy the path of myPython
+	- open Anaconda prompt & change the path using cd
+	- type: 
+		jupyter notebook
+		
+		
+##JUPYTER NOTEBOOK
+========================
+- One of the tool to execute python files / R language
+- All files will have .ipynb --> Interactive PythonNotebook
+- Works like a Client & Server Arch
+	server: jupyter notebook
+		-it will start in  http://localhost:8888
+		- port : 8888
+	client: browser.
+	- MODES
+		- Command Mode --> Blue color
+			- we do all commands 
+			- presse esc : to enable 
+			- commands
+				b -- insertion below
+				a - insertiion above
+				d - deletion
+				c - copy
+				v - paste 
+				shift+enter : run the cell
+				z - undo
+				
+		- Edit Mode  --> Green color
+			- we write python code
+		- MarkDown --> Blue color, but not cell numbering
+			- we write notes.
+			- enable to command mode then press m 
+		
+		
