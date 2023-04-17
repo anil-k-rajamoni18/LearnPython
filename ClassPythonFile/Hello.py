@@ -1,8 +1,3 @@
-print('Hello World')
+name = "kumar"
 
-print("hello python")
-
-print("""Hello World Py""")
-
-
-
+print("hey hi..." , name)
