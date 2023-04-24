@@ -152,7 +152,8 @@ PRE-REQ
 	- PythonTraining
 		- orgPython
 		- myPython
-			- jupyterPractise
+			- myYupyterPractise
+			- myVSCodePractise
 			
 			
 git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
