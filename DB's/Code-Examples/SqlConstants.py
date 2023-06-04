@@ -6,7 +6,7 @@ class Queries:
                     CREATE TABLE IF NOT EXISTS cars(
                         id                  INTEGER AUTO_INCREMENT PRIMARY KEY,
                         Name                VARCHAR(30) NOT NULL,
-                        Miles_per_gallon    INTEGER NOT NULL,
+                        Miles_per_gallon    INTEGER ,
                         Cylinders           INTEGER NOT NULL,
                         Displacement        INTEGER NOT NULL,
                         HorsePower          INTEGER NOT NULL,

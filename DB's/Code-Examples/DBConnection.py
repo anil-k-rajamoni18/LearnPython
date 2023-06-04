@@ -12,7 +12,7 @@ class SQLDBConnection:
     def create_dbconnection(self):
 
         try:
-            self.mydb = mysql.connect(
+            self.__mydb = mysql.connect(
                 host = self.__host,
                 user = self.__dbusername,
                 password = self.__dbpassword,
@@ -23,7 +23,7 @@ class SQLDBConnection:
             print(e)
             print('Exception occured while creating connection ... ')
 
-        return self.mydb
+        return self.__mydb
     def create_cursor(self):
         if self.__mydb != None:
             self.__mycurosr = self.__mydb.cursor()
@@ -33,8 +33,8 @@ class SQLDBConnection:
 
 
 
-# connObj = SQLDBConnection('root', 'SqlAk@18', 'food')
+# connObj = SQLDBConnection('root', 'SqlAk@18', 'food','localhost')
 
-# result = connObj.CreatDBConnection()
+# result = connObj.create_dbconnection()
 
-# print(result)
+# print(result.get_server_info())

@@ -2,7 +2,7 @@ from DBConnection import SQLDBConnection
 from SqlConstants import Queries
 
 # database object creation.
-sqlObj = SQLDBConnection('mayUser', 'MayDB@18', 'food', 'localhost').create_dbconnection()
+sqlObj = SQLDBConnection('mayUser', 'MayDB@18', 'RocketCars', 'localhost').create_dbconnection()
 
 # cursor object creation for doing all CRUD operations.
 cursor = sqlObj.cursor()
@@ -99,11 +99,11 @@ def delete_many():
 
 
 if __name__ == '__main__':
-    # sql_info()
-    # show_dbs()
-    # show_tables()
+    #sql_info()
+    #show_dbs()
+    #show_tables()
     # create_database()
-    # create_table()
-    # insert_one()
+    #create_table()
+    #insert_one()
     #insert_many()
     retrieve_data()
