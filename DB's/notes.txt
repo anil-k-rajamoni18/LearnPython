@@ -38,6 +38,11 @@ command:
 	mongod --version
 	
 	
+
+
+MYSQL
+================================
+
 CREATE DATABASE food;
 
 	
