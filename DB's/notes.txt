@@ -5,7 +5,14 @@ link: https://dev.mysql.com/downloads/installer/
 
 commands:
 	mysql --version
-	
+    mysql -u username -p;
+    show databases;
+    show tables;
+    use dbname;
+    desc tablename;
+
+
+
 - Types of Database
 	Central
 	De-central
@@ -66,11 +73,4 @@ SELECT * FROM food_items;
 
 
 
-command
--------------------
-
-show databases;
-show tables;
-use dbname;
-desc tablename;
 

@@ -101,7 +101,7 @@ def delete_many():
 if __name__ == '__main__':
     #sql_info()
     #show_dbs()
-    #show_tables()
+    #show_()tables
     # create_database()
     #create_table()
     #insert_one()
