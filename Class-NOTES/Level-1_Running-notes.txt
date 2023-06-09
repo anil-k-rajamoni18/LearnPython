@@ -1,0 +1,48 @@
+PREBUILD METHODS
+=====================
+print()
+ord() chr()
+type() 
+len() -- > number of character/elements in a variable.
+id() --> displays memory address of a value or variable
+int() ---> str ---> int 
+float()  --> str ----> float 
+
+
+
+
+STATIC VS DYNAMIC 
+===================
+static languages: c , cpp , java 
+- <datatype> variableName = value;
+- we have to declare/define datatypes for values/variables manually 
+
+- Every Datatype will have fixed range /size .
+- 2^n-1 ----> + (2^n-1)-1
+
+
+datatypes
+===============
+int 
+short
+byte 
+float 
+double 
+long 
+- String
+- char 
+- boolean 
+
+dynamic languages:  javascript , python , ruby 
+=======================================================
+syntax:
+
+- variableName = value;
+- Type will be decide by intrepter on runtime based on the value. 
+
+- Do we have size constraint?- NO 
+
+
+Hacker Rank
+Hacker Earth
+LeetCode 
