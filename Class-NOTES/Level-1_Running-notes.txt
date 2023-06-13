@@ -7,8 +7,7 @@ len() -- > number of character/elements in a variable.
 id() --> displays memory address of a value or variable
 int() ---> str ---> int 
 float()  --> str ----> float 
-
-
+input()
 
 
 STATIC VS DYNAMIC 
@@ -46,3 +45,27 @@ syntax:
 Hacker Rank
 Hacker Earth
 LeetCode 
+
+###################################################################
+
+1. create a branch from main branch with your name
+2. Clone this into myPython 	
+	git clone -b "yourusername" --single-branch https://github.com/anil-k-rajamoni18/Python-Discussion.git
+
+
+PUSH 
+===================
+git branch 
+git status
+git add . (all files)
+git add filName
+git commit -m "message"
+git push
+git push -u origin branch
+
+PULL
+==============
+git status
+git pull 
+
+
