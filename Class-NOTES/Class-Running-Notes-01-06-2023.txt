@@ -170,5 +170,9 @@ WORKSPACE SETUP
 	open gitbash in following path orgPython/LearnPython
 		- git status ---> nothing commit 
 		- git pull 
-	
+		
+6. OPEN JUPYTER NOTEBOOK 
+	- always copy the path of PT/myPython 
+	- open Anaconda Prompt , and change the path 
+	- jupyter notebook ---> (default, port 8888) 
 	

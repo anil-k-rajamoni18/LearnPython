@@ -1,0 +1,41 @@
+what is module/library/package?
+	- set of python files , having predefined methods 
+	- we can utlize predefined methods for faster development.
+	ex: math , requests , pymongo
+	
+what is framework?
+	- provides support for building entire project.
+		- set of packages oor modules 
+			==> sub modules + classes + functions
+	- layer structure 
+	
+	- Python frameworks automate the implementation of several tasks and 
+		give developers a structure for application development.
+	
+
+PROJECT
+====
+UI : react-js , angular , 
+BE : java , python , ruby , rust , go 
+API: REST API , GRAPHQL API's
+DATABASE: SQL or NOSQL 
+MOINTORING : Elastic Search , Kibana 
+ARC: Client & Server , Monolithic , Mircroservices 
+API GATEWAY 
+CLOUD: AWS , AZURE , GCP 
+DEV-OPS: GITHUB(SCM) , JENKINS(CI/CD), Kubernetes (deployment)
+
+
+
+
+WEB - DEV 
+================
+html , css , js 
+framework: react, angular
+
+
+1. take the requirements and anlayse 
+2. UX UI persons : draw the prototype screens.
+3. F.END , develop the project 
+4. Integrate with BE 
+

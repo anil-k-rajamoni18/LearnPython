@@ -75,3 +75,7 @@ Q5: Write a Program to Find the Square Root
 		c = 7
 	output:
 		The area of the triangle is 14.70
+		
+	s = (a+b+c)/2
+	s = sqrt(s*(s-a) 
+	
