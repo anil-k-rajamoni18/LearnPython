@@ -39,3 +39,29 @@ framework: react, angular
 3. F.END , develop the project 
 4. Integrate with BE 
 
+
+DYNAMIC ROUTING 
+======================
+@app.route('/student/<int:id>')
+def getStudent(name):
+	pass
+	
+	
+
+TEMPLATE ROUTING 
+============================
+
+- {{ url_for('method') }}
+
+
+JINJA2:
+	variable : {{variables}}
+	for loop: 
+		{%for stud in students%}
+			body
+		{%endfor%}
+	if:
+		{%if  condition % }
+		
+ 		{%endif%}
+	
