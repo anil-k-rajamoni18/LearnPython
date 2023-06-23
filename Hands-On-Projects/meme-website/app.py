@@ -8,19 +8,19 @@ app = Flask(__name__)
 
 
 def get_meme():
-  # src = /wholesomememes
-  # url = https://meme-api.herokuapp.com/gimme + src
+    url = " https://meme-api.com/gimme/1"
+    response = requests.request("GET", url)
 
-  url = "https://meme-api.herokuapp.com/gimme"
+    if response.status_code == 200:
+      apiResponse = response.json()
+      meme_title = apiResponse['memes'][0]['title']
+      meme_img = apiResponse['memes'][0]['preview'][-1]
+      return meme_img,meme_title
+    else:
+      return f'api is not available currently pls try again after some time..',503
 
-  response = requests.request("GET", url)
-  if(response.status_code==200):
-    data = response.json()
-    meme_large = data["preview"][-2]
 
-    subreddit = data["subreddit"]
-
-    return meme_large, subreddit
+   
 
 
 @app.route("/")
@@ -34,7 +34,6 @@ def getmeme():
   print(meme_pic, subreddit)
 
   return render_template("meme_index.html",meme_pic = meme_pic , subreddit = subreddit) 
-
 
 
 if __name__ == '__main__':

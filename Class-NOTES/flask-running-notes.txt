@@ -54,7 +54,8 @@ TEMPLATE ROUTING
 - {{ url_for('method') }}
 
 
-JINJA2:
+JINJA2: python code in html 
+
 	variable : {{variables}}
 	for loop: 
 		{%for stud in students%}
@@ -65,3 +66,72 @@ JINJA2:
 		
  		{%endif%}
 	
+## FLASK SQL ALCHEMY
+	ORM : Object relation model ..
+	
+	
+	
+
+### REST API WITH FLASK ################
+
+API URL : rocketrecipe.com/api/food/
+- GET  : 
+		/api/food/1
+		/api/foods
+		
+_ POST
+	/api/food 
+	/api/foods
+	
+- DELETE 
+	/api/food/1
+	
+- PUT 
+	/api/food/1
+	
+	
+	
+	
+	
+
+#################################
+
+Web Development Basics
+web Framework 
+	- Flask
+	- Django
+- Virtual env's 
+- Flask Hello World 
+- 
+Flask Routing 
+Flask Dynamic Routing 
+Flask Routing with Template 
+
+
+REST API with Flask , food-api 
+
+GET  /api/food/{id}
+POST /api/food
+DELETE /api/food/{id}
+PUT  /api/food/{id}
+
+
+REST API with Flask , todoList 
+DB : food_db
+coll: food_items
+
+GET  /api/todo/{id}
+POST /api/todo
+DELETE /api/todo/{id}
+PUT  /api/todo/{id}
+
+
+
+#####################################
+RENDER CLOUD DEPLOYMENT 
+1. create render account.
+2. push the application project floder into github new repo.
+3. connect repo with render account.
+
+note:  please include this module in requirements.txt
+		gunicorn==20.1.0
