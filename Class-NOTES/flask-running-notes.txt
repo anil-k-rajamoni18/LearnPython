@@ -135,3 +135,8 @@ RENDER CLOUD DEPLOYMENT
 
 note:  please include this module in requirements.txt
 		gunicorn==20.1.0
+
+
+
+################### MEME WEB-APP ##################
+ref : https://github.com/D3vd/Meme_Api
