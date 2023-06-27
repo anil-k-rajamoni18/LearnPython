@@ -1,0 +1,30 @@
+	
+### LEVEL-2 ############
+
+conditional statements 
+	if 
+	if else
+	if elif elif else # handling multiple conditions
+	if if if else
+	nested if else 
+	
+	
+	
+	
+OBSERVATION:
+	control expression : we can use any operator but the result should be bool type
+		all comparsion operators 
+		logical operator 
+		
+	
+looping statements 
+	for loop
+	while loop
+	
+	
+## looping questions
+print all even nums 1 - 100
+print all  odd nums 1 - 100
+print all prime numbers 1- 100 and print the count 
+
+	
