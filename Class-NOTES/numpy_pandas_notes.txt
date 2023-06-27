@@ -1,0 +1,95 @@
+os 
+sys
+random
+hashlib
+re
+smtp
+
+
+
+third-party modules
+------------------------
+
+mysql-connector
+requests
+pymongo
+flask 
+
+
+-------------- ML -----------------
+- math
+- stats
+- programming: python , R , scala , Mojo  
+- DB : MYSQL , NO SQL 
+
+modules
+----------------
+numpy
+pandas
+sklearn
+tensorflow
+keras
+
+- matplotlib
+- seaborn
+
+
+##NUMPY #############
+import numpy as np 
+
+np.array()  # numpy.ndarray ----> np.matrix
+	- ndmin
+	- dtype
+	- size
+	
+
+np.asarray()
+np.mat()
+np.matrix()
+np.asanyarray()
+np.copy
+np.fromfunction()
+np.fromiter()
+np.fromstring()
+np.reshape()
+
+
+np.arange(start,stop,step) #both int float values 
+np.linspace(start,stop,nums) 
+
+special methods
+=====================
+np.zeros()
+np.ones()
+np.eye()
+np.diag()
+np.sqrt()
+np.exp(()
+np.log10()
+np.fmod()
+
+
+random modle
+===================
+random.randint(startm,stop) 
+random.randrange(start,stop,step)
+random.random() 
+random.choice()
+random.shuffle()
+
+
+numpy random sub-module
+=========================
+numpy.random.rand(r,c) # uniform distribution
+numpy.random.randn() # stand normal distribution
+numpy.random.randint()
+
+
+datatypes:
+-------------------
+numpy.int16 32 64
+numpy.float16 32 64 
+
+
+
+
