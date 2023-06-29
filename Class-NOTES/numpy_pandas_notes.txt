@@ -93,3 +93,34 @@ numpy.float16 32 64
 
 
 
+PANDAS 
+==================
+
+import pandas as pd 
+
+pd.read_csv()
+pd.Categorical()
+pd.Series()
+pd.DataFrame()
+pd.concat()
+
+df.head()
+df.tail()
+df.describe()
+df.info() 
+df.isnull().sum()
+df.isnull().any()
+df.fillna()
+
+
+##attributes 
+df.types
+df.columns
+df.index 
+
+
+
+
+Regression Algorithm
+Classification
+

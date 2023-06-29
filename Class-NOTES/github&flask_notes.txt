@@ -49,6 +49,8 @@
 	
 	git push -u origin branch-name   ---> LOCAL REPOSITORY ==> REMOTE REPOSITORY
 	
+	git clone url ------------------------> created new local copy of remote repo ..
+	
 	
  ###FLASK SETUP 
 	
@@ -93,3 +95,41 @@
 		python filename.py
 				
 			
+			
+
+FOOD CART 
+===========================
+NEW PROJECT 
+-------------------
+static
+templates 
+app.py 
+
+
+two pages 
+
+- home page.
+	display all food items : /api/foods
+- cart page 
+		- add : new food item : /api/food/
+		- update : update food item  
+		- delete : delete food item 
+		
+		
+		
+TODO - WEB APP 
+----------------
+
+- new project 
+	static
+	templates
+	app.py
+	
+
+- home page
+	- display all todo tasts
+	- add : add new todo task 
+	- update
+	- delte 
+	
+	
