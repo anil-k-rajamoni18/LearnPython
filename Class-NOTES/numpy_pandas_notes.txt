@@ -121,6 +121,45 @@ df.index
 
 
 
-Regression Algorithm
-Classification
+######### ML  ######################
+
+- Supervised Learning 
+	- Regression : predicting continous variable out comes 
+		- Linear Regression
+		- Multi Linear Regression
+		- RandomForest Regressor 
+		- SVM 
+		- Decision Tress Regressor 
+		
+	
+	- Classification: predicting the grops 
+		- Logistic Regression 
+		
+
+- UnSupervised Learning:
+	Clustering
+	Association/Dimentionality Reduction
+	
+Reinforcement Learning
+	
+
+
+
+REFERENCE LINKS 
+======================
+https://scikit-learn.org/
+
+
+HOW TO CREATE Virtual Env
+===============================
+1. python -m venv name-of-environment
+2. name-of-environment\Scripts\activate
+3. pip install -r requirements.txt
+
+
+HOW TO GENERATE requirements.txt
+===================================
+1. You should be in activated project environment
+2. pip freeze > requirements.txt
+
 
