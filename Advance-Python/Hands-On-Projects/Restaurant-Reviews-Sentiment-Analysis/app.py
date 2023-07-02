@@ -3,9 +3,11 @@ from flask import Flask, render_template, request
 import pickle
 
 # Load the Multinomial Naive Bayes model and CountVectorizer object from disk
-filename = 'restaurant-sentiment-mnb-model.pkl'
+
+path = "./model/"
+filename = path+ 'restaurant-sentiment-mnb-model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
-cv = pickle.load(open('cv-transform.pkl','rb'))
+cv = pickle.load(open(path+'cv-transform.pkl','rb'))
 
 app = Flask(__name__)
 

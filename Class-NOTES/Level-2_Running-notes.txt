@@ -6,25 +6,59 @@ conditional statements
 	if else
 	if elif elif else # handling multiple conditions
 	if if if else
+	nested if
 	nested if else 
 	
 	
 	
-	
+
 OBSERVATION:
 	control expression : we can use any operator but the result should be bool type
 		all comparsion operators 
 		logical operator 
-		
+		arthmetic operator 
 	
 looping statements 
+#####################################
 	for loop
 	while loop
 	
 	
-## looping questions
-print all even nums 1 - 100
-print all  odd nums 1 - 100
-print all prime numbers 1- 100 and print the count 
+	
+for loop 
+###############################3
+1. print based for loop 
+2. range based for loop 
+
+	
+	
+	
+## looping questions 
+hint: for loop.
+
+- print all even nums 1 - 100
+- print all  odd nums 1 - 
+- print all prime numbers 1- 100 and print the count 
+
+A number having factors one and itself 
+	ex: 5 
+		1*5 = 5 
+		5*1 = 5
+		
+		1*17 = 17
+		17*1 = 17
+		
+		1*9 = 9
+		3*3 = 9
+		9*1 = 9
+		
+		
+		
+		
+TASK 
+=======================
+
+JSON ASSIGNMENT :
+	https://api.nobelprize.org/2.1/laureates?_ga=2.111568908.964495513.1688270339-1444252440.1688270339
 
 	
