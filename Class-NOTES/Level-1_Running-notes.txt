@@ -117,7 +117,7 @@ git pull
 conditional statements 
 	if 
 	if else
-	if elif elif else
+	if elif elif else # handling multiple conditions
 	if if if else
 	nested if else 
 	
